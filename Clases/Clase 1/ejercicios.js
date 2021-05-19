@@ -8,8 +8,16 @@
 
 // 1
 function mayor(numero1, numero2) {
-  // completen aquí
+  if ( numero1 > numero2) {
+    return numero1;
+  } else if (numero2 > numero1) {
+    return numero2;
+  } else {
+    console.log ("Los números son iguales")
+  }
 }
+
+
 
 function signo(x, y, z) {
   // complete aquí
